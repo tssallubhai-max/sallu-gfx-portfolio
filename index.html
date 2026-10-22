@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="SALLU GFX - Video Editing, Motion Graphics, Gaming Edits and Graphic Design Portfolio.">
+<title>SALLU GFX | Creative Portfolio</title>
+<style>
+:root{--bg:#090909;--card:#141414;--red:#ff3434;--white:#f7f7f7;--muted:#aaa}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;background:#090909ed;border-bottom:1px solid #252525;padding:16px 6%;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:900;letter-spacing:1px}.logo span{color:var(--red)}
+.links{display:flex;gap:22px;align-items:center}.links a:hover{color:var(--red)}
+.menu{display:none;background:none;border:1px solid #444;color:white;padding:7px 11px;border-radius:7px;font-size:20px}
+.hero{min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:75px 6%;background:radial-gradient(ellipse at 50% 35%,#421414 0%,#171010 30%,#090909 72%)}
+.tag{border:1px solid #663030;color:#ff8585;border-radius:30px;padding:6px 14px;font-size:13px;margin-bottom:22px}
+h1{font-size:clamp(40px,8vw,78px);line-height:1.08;max-width:900px;letter-spacing:-2px}
+h1 span,.accent{color:var(--red)}
+.hero p{color:#c2c2c2;max-width:600px;margin:22px 0 28px;font-size:17px}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;border:1px solid #484848;border-radius:9px;padding:12px 20px;font-weight:700;transition:.2s}
+.btn.primary{background:var(--red);border-color:var(--red);color:white}.btn:hover{transform:translateY(-2px);opacity:.88}
+section{padding:76px 6%;scroll-margin-top:65px}.heading{text-align:center;font-size:clamp(28px,5vw,42px);margin-bottom:12px}.sub{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 35px}
+.about{max-width:850px;margin:auto;text-align:center;color:#ccc;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:1000px;margin:auto}
+.card{background:var(--card);border:1px solid #292929;border-radius:15px;padding:25px;transition:.2s}
+.card:hover{border-color:#833030;transform:translateY(-3px)}
+.number{color:var(--red);font-size:13px;font-weight:bold}.card h3{margin:10px 0 6px;font-size:21px}.card p{color:var(--muted);font-size:15px}
+.portfolio{background:#101010;text-align:center}.drive{margin-top:8px}
+.contact{text-align:center}.contact .actions{margin-top:24px}
+footer{text-align:center;border-top:1px solid #252525;padding:24px;color:#888;font-size:14px}
+@media(max-width:650px){.menu{display:block}.links{display:none;position:absolute;top:65px;left:0;right:0;background:#101010;padding:20px 6%;flex-direction:column;align-items:flex-start;border-bottom:1px solid #333}.links.open{display:flex}.grid{grid-template-columns:1fr}.hero{min-height:70vh;padding-top:65px}section{padding:60px 6%}h1{letter-spacing:-1px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<nav>
+<a class="logo" href="#home">SALLU <span>GFX</span></a>
+<button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<div class="links" id="links">
+<a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+</div>
+</nav>
+<main>
+<section class="hero" id="home">
+<div class="tag">CREATIVE VIDEO EDITOR & DESIGNER</div>
+<h1>Ideas into <span>Visual Stories.</span></h1>
+<p>I create engaging Shorts, gaming edits, motion graphics and clean designs that help your content stand out.</p>
+<div class="actions"><a class="btn primary" href="#portfolio">View Portfolio ↗</a><a class="btn" href="https://www.instagram.com/sallu_gfx" target="_blank" rel="noopener">Instagram ↗</a></div>
+</section>
+<section id="about">
+<h2 class="heading">About <span class="accent">Me</span></h2>
+<p class="sub">Creative visuals. Clean editing. Strong storytelling.</p>
+<div class="about">I'm SALLU GFX, a creative editor and graphic designer focused on making content look professional, engaging and memorable. From short-form videos to gaming visuals, I turn ideas into polished content.</div>
+</section>
+<section id="services">
+<h2 class="heading">My <span class="accent">Services</span></h2>
+<p class="sub">Creative solutions for creators, brands and gaming communities.</p>
+<div class="grid">
+<article class="card"><div class="number">01 / VIDEO</div><h3>Shorts & Reels</h3><p>Engaging short-form edits, captions, pacing, transitions and sound design.</p></article>
+<article class="card"><div class="number">02 / GAMING</div><h3>Gaming Edits</h3><p>Gameplay highlights, clutch edits, effects and energetic gaming content.</p></article>
+<article class="card"><div class="number">03 / MOTION</div><h3>Motion Graphics</h3><p>Animated text, visual effects and dynamic motion-led storytelling.</p></article>
+<article class="card"><div class="number">04 / DESIGN</div><h3>Graphic Design</h3><p>Thumbnails, banners, logos and clean social media graphics.</p></article>
+</div>
+</section>
+<section class="portfolio" id="portfolio">
+<h2 class="heading">My <span class="accent">Portfolio</span></h2>
+<p class="sub">Explore my video edits and creative work in the portfolio folder.</p>
+<a class="btn primary drive" href="https://drive.google.com/drive/folders/1bGbdGfAMPM11qNY3fg_8OvsKElBrCSv2" target="_blank" rel="noopener">Open Full Portfolio ↗</a>
+</section>
+<section class="contact" id="contact">
+<h2 class="heading">Let's Work <span class="accent">Together</span></h2>
+<p class="sub">Have a project in mind? Contact me to discuss your requirements.</p>
+<div class="actions">
+<a class="btn primary" href="https://wa.me/sallu_gfx" target="_blank" rel="noopener">WhatsApp ↗</a>
+<a class="btn" href="https://www.instagram.com/sallu_gfx" target="_blank" rel="noopener">Instagram ↗</a>
+<a class="btn" href="https://drive.google.com/drive/folders/1bGbdGfAMPM11qNY3fg_8OvsKElBrCSv2" target="_blank" rel="noopener">My Work ↗</a>
+</div>
+</section>
+</main>
+<footer>© <span id="year"></span> SALLU GFX. All rights reserved.</footer>
+<script>
+const menu=document.getElementById('menu');
+const links=document.getElementById('links');
+menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+  </html>
